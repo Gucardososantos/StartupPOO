@@ -1,0 +1,51 @@
+startup-refatorado/
+├── pom.xml
+├── README.md
+├── RELATORIO.md
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/example/startup/
+│ │ │ ├── App.java
+│ │ │ ├── config/
+│ │ │ │ ├── Config.java
+│ │ │ │ └── DataSourceProvider.java
+│ │ │ ├── domain/
+│ │ │ │ ├── Startup.java
+│ │ │ │ ├── VO/
+│ │ │ │ │ ├── Dinheiro.java
+│ │ │ │ │ ├── Humor.java
+│ │ │ │ │ └── Percentual.java
+│ │ │ │ └── Delta.java
+│ │ │ ├── decision/
+│ │ │ │ ├── DecisaoStrategy.java
+│ │ │ │ ├── DecisaoFactory.java
+│ │ │ │ ├── MarketingStrategy.java
+│ │ │ │ ├── EquipeStrategy.java
+│ │ │ │ ├── ProdutoStrategy.java
+│ │ │ │ ├── InvestidoresStrategy.java
+│ │ │ │ └── CortarCustosStrategy.java
+│ │ │ ├── engine/
+│ │ │ │ └── GameEngine.java
+│ │ │ ├── score/
+│ │ │ │ └── ScoreService.java
+│ │ │ ├── infra/
+│ │ │ │ ├── repository/
+│ │ │ │ │ └── StartupRepository.java
+│ │ │ │ └── exception/
+│ │ │ │ └── AppException.java
+│ │ │ └── ui/
+│ │ │ └── ConsoleApp.java
+│ │ └── resources/
+│ │ ├── game.properties
+│ │ └── schema.sql
+│ └── test/
+│ └── java/
+│ └── com/example/startup/
+│ ├── domain/
+│ │ └── StartupTest.java
+│ └── decision/
+│ └── DecisaoFactoryTest.java
+└── target/
+
+remoção do pom.xml devido a falhas constantes e instabilidade
